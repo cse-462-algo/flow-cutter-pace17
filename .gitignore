@@ -1,3 +1,5 @@
-unzipped/
-output_logs/
+unzipped-exact-tw-instances/
+unzipped-heuristic-tw-instances/
+output-logs-exact/
+output-logs-heuristic/
 flow_cutter_pace17
