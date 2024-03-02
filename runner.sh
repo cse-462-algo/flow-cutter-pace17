@@ -11,7 +11,7 @@ outdir="output-logs-$1"
 mkdir -p $outdir
 
 # Iterate over all unzipped instances
-for file in unzipped/*; do
+for file in "unzipped-$1-tw-instances"/*; do
     echo "Running instance $(basename $file)..."
     # Run "./flow_cutter_pace17 < $file" in the background
     ./flow_cutter_pace17 < $file > $outdir/$(basename $file).log 2>&1 &
